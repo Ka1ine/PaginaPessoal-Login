@@ -1,0 +1,44 @@
+body{
+    background-image: url(fundo2.jpg);
+}
+h1{
+    color: rgb(138, 32, 73);
+    text-align: center;
+    font-size: 40px;
+}
+p{
+    color: rgb(235, 118, 182);
+    font-size: 20px;
+}
+img{
+    height: 200px;
+     width: 200px;
+     border-radius: 100px;
+}
+a {
+    color: rgb(107, 3, 102);
+    font-size: 20px;
+}
+.botao{
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+   
+}
+
+.botao_style{
+    background-color: #be94d1d7;
+    color: rgb(49, 45, 45);
+    border: 2px solid #be94d1d7;
+    border-radius: 30px;
+    transition-duration: 0.4s;
+    width: 140px;
+    height: 40px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 17px;
+}
+
+.botao_style:hover{
+    background-color: white;
+    color:rgba(2, 1, 2, 0.671);
+    border: 2px solid #be94d1d7;
+}

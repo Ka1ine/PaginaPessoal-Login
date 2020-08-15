@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pagina Pessoal</title>
+        <link rel = "stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Uma página aleatória sobre uma pessoa aleatória :)</h1>
+        <div class="geral">
+            <a href="/SobreMim"><img class="imagens" src="Mike.png"></a>
+                <figcaption>Sobre Mim</figcaption>
+            <a href="/Aleatorio"><img class="imagens" src="sullivan.png"></a>
+                <figcaption>Aleatório</figcaption>
+            <a href="/Contatos"><img class="imagens"src="boo.png"></a>
+                <figcaption>Contatos</figcaption>
+        </div>
+        <form  method="post" th:action="@{/logout}">
+            <button class="botao botao_style" type="submit">Sair</button>
+    </body>
+</html>

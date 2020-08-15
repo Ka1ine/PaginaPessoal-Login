@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>Aleatorio</title>
+        <link rel = "stylesheet" type="text/css" href="Aleatorio.css">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Cinema</h1>
+        <p> filmes e séries. Os meus tipos de filme favoritos são de Ficção Científica e Suspense. Gosto também bastante de acompanhar séries como The doctor doctor, TWD, Star Wars e  Harry Potter.</p>
+        <h1>Música</h1>
+        <p>Sempre estou escutando música independente do que eu estou fazendo. Quanto aos gêneros de músicas, sou um pouco eclético, gosto de todo tipo de música. Esse aqui é um link de uma playlist totalmente aleatórias: <a href ="https://open.spotify.com/playlist/6x4ql6q75sdxxaAWxWbncq?si=C-42FhH2QFuu61EC2aJOGg">ir para o spotify</a></p>
+        <h1>Variado</h1>
+        <p>Eu não gosto de escalada, eu faço jiu jitsu, futsal e gosto de jogar jogos.</p>
+        <img src="stitch.png">
+        <a href="/">Clique aqui para voltar</a>
+        <form  method="post" th:action="@{/logout}">
+            <button class="botao botao_style" type="submit">Sair</button>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+package com.programem.login;
+
+import org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer;
+
+public class SecurityInit extends AbstractSecurityWebApplicationInitializer {
+    public String index(){
+        return "index";
+        
+    }
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sobre Mim</title>
+        <link rel = "stylesheet" type="text/css" href="SobreMim.css">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <h1>Sobre mim</h1>
+        <p>Nasci em Natal no dia 7 de julho de 2003. Com 1 meses de idade me mudei para o Rio de Janeiro onde fiquei até meus 15 anos.</p>
+        <p>Sempre gostei bastante de disciplinas relacionadas com Física e Química. Atualmente estudo no IFZN e curso eletrônica mas eu entrei no curso muito aleatoriamente já que tinha um nome legal e pelo meu gosto em acender leds de mil e uma maneiras, porém queria estar fazendo mecatrônica mas é a vida.</p>
+        <p> Eu amo o stitch então vou colocar  uma foto dele stitch. Eu quero comer todo macarrão do mundo e abacaxi é melhor que acerola.</p>
+        <img src="stitch.png">
+        <a href="/">Clique aqui para voltar</a>
+        <form   method="post" th:action="@{/logout}">
+            <button class="botao botao_style" type="submit">Sair</button>
+    </body>
+</html>

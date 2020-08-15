@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato</title>
+        <link rel = "stylesheet" type="text/css" href="Contatos.css">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="tudo">
+            <h1>Contato</h1>
+            <br>
+            <p><strong>Nome: </strong>Yasmin Kaline de Carvalho Silva</p>
+            <p><strong>Email: </strong>yasminkaline73@gmail.com</p>
+            <p><strong>Número: </strong>(21)98191-8351</p>
+        </div>
+        <img src="stitch.png">
+        <a href="/">Clique aqui para voltar</a>
+        <form  method="post" th:action="@{/logout}">
+            <button class="botao botao_style" type="submit">Sair</button>
+    </body>
+</html>
